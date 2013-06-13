@@ -2,7 +2,7 @@ class Player
 
 def initialize(game_window)
 	@game_window = game_window
-	@icon = Gosu::Image.new(@game_window, "images/superflex.jpg",true )
+	@icon = Gosu::Image.new(@game_window, "images/superflex.png",true )
 	@x = 75
 	@y = 68
 	end
