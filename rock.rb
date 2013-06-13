@@ -1,7 +1,7 @@
 class Rock
 	def initialize (game_window)
 		@game_window = game_window
-		@icon = Gosu::Image.new(@game_window, "images/rock.jpg",true )
+		@icon = Gosu::Image.new(@game_window, "images/rock.png",true )
 		reset!
 	end
 	
